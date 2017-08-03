@@ -1,0 +1,29 @@
+nginx_php71:
+  build: ./nginx_php71
+  ports:
+    - "2022:22"
+    - "8080:80"
+    - "4430:443"
+  volumes:
+    - C:\Users\burgess.chen\docker\yii:/var/www/html/
+nginx_php56:
+  build: ./nginx_php56
+  ports:
+    - "2122:22"
+    - "8180:80"
+    - "4431:443"
+  volumes:
+    - C:\Users\burgess.chen\docker\yii:/var/www/html/    
+nginx_php56_tideways:
+  build: ./nginx_php56_tideways
+  ports:
+    - "2322:22"
+    - "8280:80"
+    - "4432:443"
+  volumes:
+    - C:\Users\burgess.chen\docker\yii:/var/www/html/     
+mariadb:
+  build: ./mariadb
+  ports:
+    - "2222:22"
+    - "3306:3306"

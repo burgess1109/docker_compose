@@ -1,0 +1,12 @@
+CREATE USER 'root'@'%' IDENTIFIED BY 'P@ssw0rd';
+
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'P@ssw0rd' WITH GRANT OPTION;
+
+SET PASSWORD FOR 'root'@'localhost' = PASSWORD('P@ssw0rd');
+
+FLUSH PRIVILEGES;
+
+
+
+
+
