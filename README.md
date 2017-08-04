@@ -1,6 +1,6 @@
 # Docker Compose Centos
 
-本repo收集一些基本的Dockerfile, 方便快速佈署環境使用
+本repo提供一些基本的Dockerfile, 方便快速佈署環境使用
 
 
 # 使用步驟
