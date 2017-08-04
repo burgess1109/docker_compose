@@ -13,15 +13,7 @@ nginx_php56:
     - "8180:80"
     - "4431:443"
   volumes:
-    - C:\Users\burgess.chen\docker\yii:/var/www/html/    
-nginx_php56_tideways:
-  build: ./nginx_php56_tideways
-  ports:
-    - "2322:22"
-    - "8280:80"
-    - "4432:443"
-  volumes:
-    - C:\Users\burgess.chen\docker\yii:/var/www/html/     
+    - C:\Users\burgess.chen\docker\yii:/var/www/html/
 mariadb:
   build: ./mariadb
   ports:
