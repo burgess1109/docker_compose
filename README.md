@@ -17,7 +17,7 @@
 	git clone https://github.com/burgess1109/docker_compose_centos.git
 	```
 
-* 請依需求各自修改 docker-compose.yml 開放的ports 跟 掛載volumes路徑(本地路徑必須在c槽 user家目錄底下)
+* 請依需求各自修改 docker-compose.yml 開放的ports 跟 掛載volumes路徑(本地路徑必須在user家目錄底下)
 
     不需要的container或其他設定可用 # 號註解掉
 
